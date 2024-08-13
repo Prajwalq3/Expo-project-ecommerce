@@ -6,7 +6,7 @@ export default function GettingIntoPage({ navigation }) {
     <ImageBackground source={{uri:'https://w0.peakpx.com/wallpaper/302/120/HD-wallpaper-world-food-colors-comida-food-neon-pink-theme.jpg'}} style={styles.background}>
       <View style={styles.container}>
         <Text style={styles.welcome}>Synergy welcomes you..</Text>
-        <Button title="---Home" onPress={() => navigation.navigate('SignupPage')} />
+        <Button title="..EXPLORE" onPress={() => navigation.navigate('SignupPage')} />
       </View>
     </ImageBackground>
   );
